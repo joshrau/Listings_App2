@@ -1,0 +1,74 @@
+<robot Driving>
+
+find car
+walk to car
+position next to left front door
+use hand to pull handle
+pull hand while pulling entire door on its hinge
+pull until fully open
+let go of door
+walk to threshold of open door
+lift up right leg 
+place right leg on car floor
+sit down facing forward
+place left leg on left side of right leg
+grab inside handle with left hand
+pull door on hinge until closed
+find keys
+place key in keyhole
+place right foot on brake
+check if car is in park
+rotate key in ignition with clockwise motion
+verify car is on - if not see mechanic
+place right hand on gear shift
+shift into "drive"
+remove foot from brake
+put a light amount of pressure on gas pedal
+check mph gauge
+if less than 20 mph then
+increase pressure on gas pedal until 20 mph is reached
+
+VARIABLES
+pressure on gas pedal  float
+pressure on brake pedal   float
+speed on gauge   fixnum
+car t/f
+foot on gas t/f
+foot on brake t/f
+door open t/f
+gear number  fixnum   -1,0,1,2,3,4,5,6
+rpm of motor   fixnum
+speed limit   fixnum
+distance traveled   float
+time traveled    float
+total desired trip distance    float
+total desire time in car    float
+gas level    float
+battery level float
+oil level float
+washer fluid   float
+transmission fluid  float
+window wipers on t/f
+doors locked t/f
+trunk open t/f
+tired pressure fixnum
+tired tread  fixnum
+headlights on  t/f
+
+METHODS
+find_car(1)
+approach_car(2)
+open_lock(True)
+choose_door(4)
+open_door(45)
+sit_down(True)
+close_door(0)
+find_keys(true)
+start_ignition(true)
+prepare_for_drive()
+drive()
+make_go_speed(20)
+
+
+
+
